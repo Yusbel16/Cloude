@@ -52,11 +52,24 @@ Surgery, Odalis Cleaning Services. Only reference them with the wording the site
 
 ## Visual identity cues
 
+Exact website palette (from the theme's CSS tokens), used on every Reel so Instagram matches the site:
+
+| Token | Hex | Use in video |
+|---|---|---|
+| ink | `#0c0b0e` | backgrounds, deep shadows |
+| paper | `#f5f4f1` | paper cutouts, type |
+| violet | `#aa83fa` | the single accent color per video |
+| violet light | `#bb9aea` | highlight on the accent |
+| muted | `#aaa7b2` | secondary grey paper |
+
+Fonts on the site: Playfair Display (headlines) and DM Sans (body).
+
+
 - Dark, premium studio look with violet / purple light accents (hero image is a
   "violet-lit studio"). Gold lion mark on the logo.
 - Editorial typography, generous whitespace, numbered sections ("01 / 02 / 03").
 - Motion: purposeful, not flashy.
-- Video style locked by the owner: **Paper Diorama** preset, narrator voice **Fraser**.
+- Video style locked by the owner: **Paper Diorama** preset rendered in the website palette (ink black, off-white paper, one violet accent), narrator voice **Fraser**.
 
 ## Calls to action (use exactly one per video)
 

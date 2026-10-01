@@ -39,8 +39,9 @@ caption, and the locked channel DNA from `brand/channel-dna.json`.
      `voice_id 6705e465-7b52-5915-a1d8-b1222885e01d`, `voice_type preset`). Skip the picker.
    - If the DNA carries `style_key_urls` / `assets`, hand the whole `video` object to the
      workflow as CHANNEL DNA so it reuses the style key and skips Phase 0 and 1.
-3. Brand guardrails for every scene prompt: dark charcoal and violet backdrops, warm gold
-   accents, premium editorial feel, no faces of real people, no competitor logos, no text
+3. Brand guardrails for every scene prompt: use `video.style.formula` from the DNA byte-identical in
+   every image and clip prompt, with its `palette_lock` (website palette: ink black, off-white paper,
+   one soft violet accent, no sepia or gold). Premium editorial feel, no faces of real people, no competitor logos, no text
    claims that are not in the script. Scenes illustrate small-business life: storefronts,
    phones, websites on screens, a lion motif is welcome but not required.
 4. Deliver per Phase 9: `media_upload` → PUT → `media_confirm`. Keep the **confirmed hosted

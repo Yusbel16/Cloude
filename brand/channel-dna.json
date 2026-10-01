@@ -15,12 +15,23 @@
     "motion_mode": "animated",
     "talking_characters": false,
     "style": {
-      "name": "Paper Diorama",
+      "name": "Paper Diorama (Lion Roar brand palette)",
       "preset_id": "83d276f6-e3aa-49b8-82f2-1a0bb7d0a370",
       "source": "picked by the owner on 2026-10-01",
-      "palette_lock": "layered paper diorama look: deep charcoal and violet backdrops, warm gold and off-white paper layers, soft studio lighting",
+      "palette_lock": "near-black ink backgrounds (#0c0b0e), off-white (#f5f4f1) and pale grey paper monochrome, with ONE soft violet (#aa83fa) paper accent; no sepia, no brown, no gold, no other colors",
       "style_key_urls": [],
-      "formula_file": null
+      "formula_file": null,
+      "accent": "soft violet (#aa83fa)",
+      "formula": "cinematic paper-diorama documentary in the Lion Roar brand palette: miniature table-top worlds built from off-white and pale grey newsprint and cardboard on near-black ink backdrops, torn layered paper edges, monochrome halftone print texture, anonymous halftone cutout figures with obscured faces, one single soft violet paper accent, distressed letterpress texture on props, warm tungsten documentary lighting with deep ink-black shadows, macro tilt-shift shallow depth of field, film grain and floating paper dust, smooth handcrafted stop-motion motion, non-photorealistic handcrafted paper materials only.",
+      "motion": "smooth simple handcrafted motion, subtle stop-motion feel",
+      "donor_media_ids": [
+        "272b5b01-ba05-4fc6-96e4-de1e51a0bfe9",
+        "2cd9f315-6455-4e77-a8d2-94fa50242a4a"
+      ],
+      "captions": {
+        "look": "clean",
+        "language": "en"
+      }
     },
     "voice": {
       "name": "Fraser",
@@ -41,5 +52,17 @@
     "cron": "CRON_TZ=America/New_York 52 10 */2 * *",
     "timezone": "America/New_York"
   },
-  "notes": "Hand this object to the faceless-video workflow so video #2 looks like video #1. After the first successful run, fill style_key_urls, formula_file and assets from the CHANNEL DNA the workflow prints."
+  "notes": "Hand this object to the faceless-video workflow so video #2 looks like video #1. After the first successful run, fill style_key_urls, formula_file and assets from the CHANNEL DNA the workflow prints.",
+  "brand_palette": {
+    "source": "lionroar360.com theme style.css :root tokens",
+    "ink": "#0c0b0e",
+    "paper": "#f5f4f1",
+    "violet": "#aa83fa",
+    "violet_light": "#bb9aea",
+    "muted": "#aaa7b2",
+    "fonts": {
+      "serif": "Playfair Display",
+      "sans": "DM Sans"
+    }
+  }
 }
