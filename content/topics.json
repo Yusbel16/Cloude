@@ -1,0 +1,430 @@
+{
+  "version": 1,
+  "format": {
+    "blocks": 6,
+    "words_per_block": "18-24",
+    "structure": ["hook", "teach", "teach", "teach", "teach", "cta"]
+  },
+  "topics": [
+    {
+      "id": "mkt-01",
+      "pillar": "why-marketing",
+      "title": "Why marketing is not optional anymore",
+      "script": [
+        "If customers cannot find you, they cannot choose you. That is the whole reason marketing exists, and it matters more every year.",
+        "Most people now search online before they call anyone. They compare websites, reviews and ads in minutes, often without talking to a human.",
+        "A business with great work and no visibility loses to a weaker competitor who simply shows up first and looks more trustworthy.",
+        "Marketing is not about being loud. It is about being found, being understood, and making the next step easy for the customer.",
+        "Start with one channel, measure what happens, and improve it. Consistency beats bursts of activity followed by months of silence.",
+        "Lion Roar 360 helps businesses get found and stay connected. Visit lionroar360.com and request a call back to talk about yours."
+      ],
+      "caption": "Great work is not enough if nobody can find it. Marketing is how customers discover you, understand you and choose you.\n\nWe help Miami and nationwide businesses get found and stay connected. Request a call back at lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "mkt-02",
+      "pillar": "why-marketing",
+      "title": "Attention is only the beginning",
+      "script": [
+        "Here is a mistake many businesses make. They pay for attention, get the click, and then nothing happens after it.",
+        "An ad can bring someone to your website. But the message has to make sense, and the next step has to be obvious.",
+        "When an inquiry finally arrives, your business needs a plan to respond quickly. Slow follow-up quietly wastes the money you spent.",
+        "Think of marketing as one journey: how someone discovers you, why they choose to reach out, and what happens after they do.",
+        "Fix the weakest link first. Sometimes that is the ad, often it is the website, and very often it is the follow-up.",
+        "Lion Roar 360 connects all three parts around your business. Call (786) 550-2777 and let us look at your customer journey together."
+      ],
+      "caption": "Attention is only the beginning. The ad, the website and the follow-up have to work together or the money leaks out somewhere.\n\nLet's look at your customer journey. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "mkt-03",
+      "pillar": "why-marketing",
+      "title": "The cost of being invisible",
+      "script": [
+        "Every day a business stays invisible online, customers who were ready to buy choose someone else. That cost never shows on an invoice.",
+        "Think about your own habits. When you need a plumber, a clinic or a cabinet maker, you search, you compare, and you pick.",
+        "The businesses that win those moments are not always the best. They are the ones that appear, look credible and are easy to contact.",
+        "Visibility is built, not bought once. A clear website, accurate Google listing and steady content compound over months.",
+        "Start small, but start. Claim your listing, fix your website basics, and show your work where your customers already look.",
+        "Lion Roar 360 builds visibility that lasts. Visit lionroar360.com and request a call back to find out where to start."
+      ],
+      "caption": "Being invisible online has a cost. It just never shows up on an invoice.\n\nWe help businesses appear where customers already look. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "mkt-04",
+      "pillar": "why-marketing",
+      "title": "Marketing for small businesses is a system, not a stunt",
+      "script": [
+        "One viral post will not grow a business. A simple system that runs every week will. Let me show you what that looks like.",
+        "First, a website that explains your offer clearly. Second, a way to be found, through search or ads. Third, consistent content.",
+        "Fourth, a place where every inquiry lands, with reminders so nobody is forgotten. Fifth, a monthly look at what actually worked.",
+        "Each piece supports the next. The content feeds the ads, the ads feed the website, and the website feeds the follow-up.",
+        "You do not need everything on day one. Pick the piece that is most broken today and build from there.",
+        "Lion Roar 360 plans these pieces together so each one supports the next. Call (786) 550-2777 to talk about your system."
+      ],
+      "caption": "Growth is a system, not a stunt. Website, visibility, content, follow-up and review, each part supporting the next.\n\nWant help building yours? Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "mkt-05",
+      "pillar": "why-marketing",
+      "title": "Why your competitors are growing and you are not",
+      "script": [
+        "Two businesses, same quality, same prices. One grows every year. The other stays flat. The difference is usually not luck.",
+        "The growing business is easy to find on Google, its website answers questions before the call, and its reviews are recent.",
+        "It runs ads with a clear promise, sends people to a page that matches that promise, and follows up the same day.",
+        "The flat business relies on word of mouth alone. That still works, but it stops working the moment referrals slow down.",
+        "You can close that gap in months, not years, by fixing the basics in order: website, listing, follow-up, then advertising.",
+        "Lion Roar 360 helps you close that gap step by step. Visit lionroar360.com and request a call back to begin."
+      ],
+      "caption": "Same quality, same prices, different results. The growing business is easy to find, easy to understand and quick to follow up.\n\nLet's close the gap. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "mkt-06",
+      "pillar": "why-marketing",
+      "title": "Marketing in English and Spanish",
+      "script": [
+        "In Miami and across the country, many customers search and ask questions in Spanish. Is your business ready to answer them?",
+        "Serving a bilingual audience is not just translation. It is making sure the message, the forms and the follow-up feel natural.",
+        "A Spanish speaking customer who gets a confusing English only page often leaves without calling, even if you were the best option.",
+        "Simple steps help: a Spanish service page, bilingual ad copy, and a team or automated assistant that can respond in both languages.",
+        "Done well, this opens a market your competitors are ignoring, with the same website and the same budget you already have.",
+        "Lion Roar 360 works in English and Spanish. Call (786) 550-2777 and let us help you reach every customer clearly."
+      ],
+      "caption": "Many of your customers search in Spanish. A bilingual website, bilingual ads and bilingual follow-up open a market most competitors ignore.\n\nHablamos español. Llámanos al (786) 550-2777 o visita lionroar360.com."
+    },
+    {
+      "id": "web-01",
+      "pillar": "website",
+      "title": "Your website is where the decision happens",
+      "script": [
+        "Your ad got the click. Your website takes it from there. That is the moment most businesses lose, and here is why.",
+        "A visitor decides in seconds whether they understand what you do, whether they trust you, and how to contact you.",
+        "If the page is slow, confusing on a phone, or buried under everything you offer, they leave and call the next result.",
+        "A high quality website is not about looking fancy. It is clear structure, fast loading, real proof and one obvious next step.",
+        "Ask yourself: can a stranger explain your main service and find your phone number within ten seconds on mobile?",
+        "Lion Roar 360 designs websites that turn visits into inquiries. Visit lionroar360.com and request a call back to review yours."
+      ],
+      "caption": "Your ad got the click. Your website takes it from here. Clear structure, fast loading, real proof and one obvious next step.\n\nWant a review of your site? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "web-02",
+      "pillar": "website",
+      "title": "Three signs your website is costing you customers",
+      "script": [
+        "Three signs your website is quietly costing you customers. If you recognize even one, it is time to fix it.",
+        "Sign one: people call asking basic questions your website should already answer, like pricing ranges, service areas or hours.",
+        "Sign two: visitors arrive from ads but few useful inquiries follow. The destination is not continuing the conversation the ad started.",
+        "Sign three: the site feels awkward on a phone, or it no longer reflects the business you run today.",
+        "Each of these is fixable without a full rebuild. A clearer service page or a better inquiry form often solves the priority problem.",
+        "Lion Roar 360 reviews your site before recommending anything. Call (786) 550-2777 and we will tell you where to start."
+      ],
+      "caption": "Three signs your website is costing you customers: basic questions on every call, ad clicks with no inquiries, and a clumsy mobile experience.\n\nAll three are fixable. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "web-03",
+      "pillar": "website",
+      "title": "Why website speed matters to your customers",
+      "script": [
+        "A slow website adds friction before a visitor even sees your offer. On a phone, every extra second pushes people away.",
+        "Speed is also about trust. A page that stalls feels neglected, and visitors assume the business behind it might be too.",
+        "The usual causes are heavy images, too many plugins, cheap hosting and code that was never cleaned up after launch.",
+        "The fix is practical: optimize images, trim what you do not use, choose solid hosting, and test mobile and desktop separately.",
+        "We aim for a ninety plus performance score on key pages. A score by itself does not create sales, but slow pages lose them.",
+        "Lion Roar 360 maintains and optimizes websites month after month. Visit lionroar360.com and request a call back."
+      ],
+      "caption": "A slow website loses customers before they see your offer. Speed is trust.\n\nWe aim for 90+ performance on key pages and keep sites healthy month after month. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "web-04",
+      "pillar": "website",
+      "title": "The ad promise must match the landing page",
+      "script": [
+        "A customer clicks an ad for one service and lands on a homepage describing everything you do. That mismatch costs you leads.",
+        "The ad made a specific promise. The page should keep it: same service, same audience, same language, the proof that matters.",
+        "A focused landing page answers that customer's questions, shows relevant work, and offers one clear way to inquire.",
+        "This single change often improves results more than raising the budget, because you stop losing the people you already paid for.",
+        "Before launching any campaign, ask where the click lands and whether that page continues the conversation the ad started.",
+        "Lion Roar 360 builds landing pages around the ad's promise. Call (786) 550-2777 to make your clicks count."
+      ],
+      "caption": "The ad made a promise. The landing page has to keep it. A focused page beats a bigger budget more often than you would think.\n\nCall (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "web-05",
+      "pillar": "website",
+      "title": "Mobile first is not a trend, it is your customer",
+      "script": [
+        "Most of your visitors are holding a phone, often with one hand, often in a hurry. Design for that person first.",
+        "Mobile first means big tap targets, short menus, a visible phone button, and forms that only ask what you truly need.",
+        "It also means content order. Who you help, what you do, and the next step should appear before anything else.",
+        "Test it yourself. Open your site on a phone, try to book or call, and count every tap. Each one is a chance to quit.",
+        "A good mobile experience makes your business easier to trust and easier to contact, which is the entire point of the website.",
+        "Lion Roar 360 designs for the phone in your customer's hand. Visit lionroar360.com and request a call back today."
+      ],
+      "caption": "Your customer is holding a phone, in a hurry, with one hand. Design for that person first.\n\nWe build mobile-first websites that make you easy to contact. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "web-06",
+      "pillar": "website",
+      "title": "Do you really need a new website?",
+      "script": [
+        "Do you need a completely new website? Not always. Sometimes the honest answer saves you thousands. Here is how to decide.",
+        "If the structure is sound but one service page is unclear, rewrite that page. If the form is confusing, fix the form.",
+        "If the site is slow, outdated on mobile, built on a platform you cannot update, or no longer reflects your business, rebuild.",
+        "A review comes first. Look at the current platform, the content, the integrations and the inquiry flow before deciding.",
+        "The goal is the same either way: easier to find, easier to understand, easier to contact. The path should fit your budget.",
+        "Lion Roar 360 reviews before it recommends. Call (786) 550-2777 and get an honest answer about your website."
+      ],
+      "caption": "You might not need a new website. A clearer service page or a better form may solve the real problem.\n\nWe review first, then recommend. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "seo-01",
+      "pillar": "be-found",
+      "title": "Local SEO explained in one minute",
+      "script": [
+        "When someone nearby searches for what you do, do you show up? That is local search, and it is worth understanding.",
+        "Google looks at three things: how relevant your business is, how close you are, and how prominent you seem online.",
+        "You influence all three. A complete Google Business Profile, accurate categories and hours, and consistent details everywhere.",
+        "Add recent reviews, real photos of your work, and service pages on your website that match what people actually search for.",
+        "Local SEO is slow and steady. The businesses that keep their profile active for a year usually own their neighborhood searches.",
+        "Lion Roar 360 handles SEO and local search for growing businesses. Visit lionroar360.com and request a call back."
+      ],
+      "caption": "Local search comes down to relevance, distance and prominence. You control more of it than you think.\n\nWe handle SEO and local search for growing businesses. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "seo-02",
+      "pillar": "be-found",
+      "title": "Your Google Business Profile is a free salesperson",
+      "script": [
+        "Your Google Business Profile is a free salesperson working twenty four hours a day. Most businesses leave it half finished.",
+        "Fill in every field: services, hours, service area, description and attributes. Google rewards complete and consistent profiles.",
+        "Upload real photos regularly. Customers trust a business they can see, and recent photos signal that you are active.",
+        "Ask happy customers for reviews and answer every one, including the critical ones, calmly and briefly.",
+        "Post updates monthly. Offers, finished projects and simple tips keep the profile fresh and give searchers a reason to call.",
+        "Lion Roar 360 keeps profiles active as part of local SEO. Call (786) 550-2777 to put yours to work."
+      ],
+      "caption": "Your Google Business Profile works 24 hours a day for free. Complete it, add photos, collect reviews, post monthly.\n\nWe keep profiles active as part of local SEO. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "seo-03",
+      "pillar": "be-found",
+      "title": "Content that gets found: write for the question",
+      "script": [
+        "People do not search for your company name. They search for their problem. Your content should answer that problem directly.",
+        "Make a list of the questions customers ask you every week. Each one is a page or a post waiting to be written.",
+        "Answer plainly, with your real experience, and include the next step. Useful content earns trust before the first call.",
+        "Keep technical foundations clean: fast pages, clear titles, working links and a site structure that search engines can follow.",
+        "Consistency matters more than volume. One helpful page a month, every month, outperforms ten rushed pages once a year.",
+        "Lion Roar 360 pairs useful content with technical SEO. Visit lionroar360.com and request a call back to plan yours."
+      ],
+      "caption": "Customers search for their problem, not your company name. Answer the question and you earn the call.\n\nUseful content plus clean technical SEO. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "seo-04",
+      "pillar": "be-found",
+      "title": "SEO versus ads: which one first?",
+      "script": [
+        "SEO or ads? Business owners ask us this constantly. The honest answer depends on how soon you need the phone to ring.",
+        "Ads bring traffic this week, but they stop the moment you stop paying. SEO builds slowly, then keeps paying for years.",
+        "If you need customers now, start with search ads on a focused landing page while the organic foundation gets built.",
+        "If cash flow is steady, invest in your website, local listing and content first, then add ads to accelerate what works.",
+        "The strongest businesses run both. The ads reveal which messages convert, and that insight makes the SEO content sharper.",
+        "Lion Roar 360 plans search and advertising together. Call (786) 550-2777 and we will recommend where to start."
+      ],
+      "caption": "SEO or ads? Ads work this week and stop when you stop. SEO is slow and then compounds. Most strong businesses run both.\n\nCall (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "ads-01",
+      "pillar": "be-found",
+      "title": "Google Ads: reach people already looking for you",
+      "script": [
+        "Google Ads puts your business in front of people who are searching for exactly what you offer, right now, in your area.",
+        "That intent is the advantage. Someone typing emergency plumber near me is not browsing. They are ready to call.",
+        "The campaign works when three things line up: the right keywords, a message that matches the search, and a page that delivers.",
+        "Watch the data weekly. Pause what wastes money, add negative keywords, and move budget toward the searches that become calls.",
+        "Done carelessly, Google Ads burns money fast. Done well, it becomes the most predictable source of new customers you have.",
+        "Lion Roar 360 manages Google Ads and YouTube campaigns. Visit lionroar360.com and request a call back."
+      ],
+      "caption": "Google Ads reaches people already searching for what you do. Keywords, message and landing page have to line up.\n\nWe manage Google Ads and YouTube campaigns. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "ads-02",
+      "pillar": "be-found",
+      "title": "Facebook and Instagram ads that feel like content",
+      "script": [
+        "On Facebook and Instagram, nobody is searching for you. You interrupt their scroll, so the creative has to earn attention.",
+        "The best ads look like good content: a real project, a quick before and after, a short tip, a face the audience can trust.",
+        "Target by location and interest, then let the platform learn from who actually engages. Keep the first few seconds strong.",
+        "Send people to a page that matches the ad, and make the next step easy: a form, a call button, or a message.",
+        "Test two or three creatives at a time and keep the winner. Small budgets work when the creative is doing the heavy lifting.",
+        "Lion Roar 360 creates and manages Meta campaigns. Call (786) 550-2777 to talk about your next campaign."
+      ],
+      "caption": "On Facebook and Instagram nobody is searching for you. The creative has to earn attention and feel like content.\n\nWe create and manage Meta campaigns. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "ads-03",
+      "pillar": "be-found",
+      "title": "Why your ads get clicks but no customers",
+      "script": [
+        "Your ads get clicks, but the phone does not ring. Before you blame the platform, check these four things.",
+        "One: the ad promises something the landing page does not deliver. Two: the page is slow or confusing on mobile.",
+        "Three: the form asks for too much, or the phone number is hidden. Four: nobody follows up quickly when a lead arrives.",
+        "Clicks are the cheapest part of the journey. The expensive loss happens after the click, where most businesses never look.",
+        "Fix the page and the follow-up first. Then review targeting. Usually the budget was fine; the destination was not.",
+        "Lion Roar 360 looks at the ad, the page and the follow-up together. Visit lionroar360.com and request a call back."
+      ],
+      "caption": "Clicks but no customers? Check the landing page, the mobile experience, the form and the follow-up before blaming the ads.\n\nWe review all of it together. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "ads-04",
+      "pillar": "be-found",
+      "title": "How much should a small business spend on ads?",
+      "script": [
+        "How much should you spend on ads? There is no magic number, but there is a sensible way to find yours.",
+        "Start with what a new customer is worth to you over a year. Then decide what you can afford to pay to win one.",
+        "Begin with a modest, steady budget for a month. Enough to gather real data, small enough that mistakes are cheap.",
+        "Measure cost per lead and cost per booked job, not clicks. Raise the budget only on campaigns that produce real customers.",
+        "A clear strategy before the first dollar is spent prevents the most common outcome: a big budget, no tracking, no lessons.",
+        "Lion Roar 360 builds paid advertising strategy before spending. Call (786) 550-2777 to plan your budget."
+      ],
+      "caption": "There is no magic ad budget. Know what a customer is worth, start steady, measure cost per real lead, then scale what works.\n\nStrategy first, spend second. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "crm-01",
+      "pillar": "follow-up",
+      "title": "The lead you forgot to call back",
+      "script": [
+        "Somewhere in your inbox or voicemail there is a lead you never called back. That was a paying customer. Here is how to stop losing them.",
+        "Speed wins. The business that responds first, within minutes, usually gets the job, even when it is not the cheapest.",
+        "Every inquiry needs one place to land: a pipeline with stages, a reminder, and a record of the conversation so far.",
+        "Automate the first reply. A quick confirmation text or email tells the customer they were heard while you finish the job you are on.",
+        "Then follow up on a schedule. Two, three, four touches over a week recovers inquiries that would otherwise go quiet.",
+        "Lion Roar Connect gives every inquiry a next step automatically. Visit lionroar360.com and request a call back to see it."
+      ],
+      "caption": "The lead you forgot to call back was a paying customer. Fast first reply, one pipeline, scheduled follow-up.\n\nLion Roar Connect gives every inquiry a next step. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "crm-02",
+      "pillar": "follow-up",
+      "title": "What a CRM actually does for a small business",
+      "script": [
+        "CRM sounds like a big company tool. For a small business it is simpler: one place where every customer conversation lives.",
+        "A lead comes in from your website, an ad or a call. It lands in a pipeline: new inquiry, in conversation, appointment, won.",
+        "Email, text and WhatsApp follow-ups go out automatically, so nobody is forgotten while your team is busy doing the work.",
+        "Calendars and reminders keep appointments on track. Everyone can see the history, so the customer never repeats themselves.",
+        "The result is calm. Fewer dropped leads, faster replies, and a clear view of what is coming next for the business.",
+        "Lion Roar Connect is built for exactly this. Call (786) 550-2777 and we will show you how it fits your business."
+      ],
+      "caption": "A CRM for a small business is simple: one place where every customer conversation lives, with automatic follow-up.\n\nMeet Lion Roar Connect. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "crm-03",
+      "pillar": "follow-up",
+      "title": "An AI phone assistant that never misses a call",
+      "script": [
+        "Missed calls are missed customers. When you are on a job or with a patient, who answers the phone for your business?",
+        "An AI phone assistant answers every incoming inquiry, collects the details, books the appointment, and sends you a summary.",
+        "It works after hours, in English and Spanish, and it never puts a customer on hold or forgets to write down a number.",
+        "The customer gets an immediate, polite response. You get a lead in your pipeline instead of a voicemail you hear tomorrow.",
+        "Combined with text follow-up, this turns the calls you used to miss into booked conversations, without hiring anyone.",
+        "Lion Roar Connect includes an AI phone assistant. Visit lionroar360.com and request a call back to hear how it works."
+      ],
+      "caption": "When you are on a job, who answers your phone? An AI assistant can answer, collect details and book, in English and Spanish.\n\nPart of Lion Roar Connect. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "crm-04",
+      "pillar": "follow-up",
+      "title": "Email and SMS: the follow-up most businesses skip",
+      "script": [
+        "Most businesses spend to get new customers and almost nothing to keep the ones they have. Email and text fix that.",
+        "A simple monthly email keeps you top of mind: a finished project, a seasonal reminder, a helpful tip, a limited offer.",
+        "Text messages work for what is time sensitive: appointment reminders, quick confirmations, and reactivating customers who went quiet.",
+        "Always get consent, keep messages short, and give people a clear way to stop. Respect builds the list; spam destroys it.",
+        "Reconnecting with past customers is the cheapest growth available, because they already trust you and already know your work.",
+        "Lion Roar 360 runs email and SMS marketing that respects your customers. Call (786) 550-2777 to set it up."
+      ],
+      "caption": "Keeping a customer costs less than finding a new one. Email and SMS follow-up keeps you top of mind, with consent and respect.\n\nCall (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "soc-01",
+      "pillar": "social-content",
+      "title": "Consistency beats perfection on social media",
+      "script": [
+        "You do not need a viral video. You need to show up consistently so customers see you as active and trustworthy.",
+        "A simple rhythm works: two or three posts a week, mixing finished work, behind the scenes, quick tips and customer words.",
+        "Plan a month at a time. Batch the content in one afternoon, then schedule it, so the business runs even when you are busy.",
+        "Reply to comments and messages quickly. Social media is a conversation, and responsiveness is part of your reputation.",
+        "Review what people engaged with each month and make more of it. Your audience tells you what they want, if you look.",
+        "Lion Roar 360 plans, publishes and manages social media for businesses. Visit lionroar360.com and request a call back."
+      ],
+      "caption": "You do not need to go viral. You need to show up consistently. Plan a month, batch the content, reply fast, review monthly.\n\nWe manage social media for businesses. Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "soc-02",
+      "pillar": "social-content",
+      "title": "Why video is the strongest content you can make",
+      "script": [
+        "Video is the closest thing to meeting you in person. That is why it builds trust faster than any other content.",
+        "Short videos work everywhere: Instagram, Facebook, YouTube, your website, your ads, even your email follow-up.",
+        "You do not need a studio. A clear message, decent light, steady sound and a purpose for every clip matter far more.",
+        "Show the work, explain a common question, walk through a finished project, or let a happy customer speak in their own words.",
+        "One well made video can be cut into many pieces and reused for months, which makes it the most efficient content investment.",
+        "Lion Roar 360 produces purposeful video and creative for your channels. Call (786) 550-2777 to plan yours."
+      ],
+      "caption": "Video is the closest thing to meeting you in person. One good video becomes months of content across every channel.\n\nWe produce purposeful video and creative. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "soc-03",
+      "pillar": "social-content",
+      "title": "Your brand is more than a logo",
+      "script": [
+        "A brand is not a logo. It is the feeling a customer has before, during and after working with you. Let me explain.",
+        "Positioning decides who you are for and why you are different. Identity decides how that looks and sounds everywhere.",
+        "Consistency is what makes it work: the same colors, tone and promise on the website, the van, the ads and the invoice.",
+        "A distinctive, consistent presence makes every other marketing dollar more efficient, because people recognize you faster.",
+        "Start by writing one sentence that says who you help and what makes you the right choice. Everything else grows from it.",
+        "Lion Roar 360 builds brand strategy and design for growing businesses. Visit lionroar360.com and request a call back."
+      ],
+      "caption": "A brand is the feeling a customer has before, during and after working with you. Consistency makes every marketing dollar work harder.\n\nVisit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "lr-01",
+      "pillar": "how-we-help",
+      "title": "How Lion Roar 360 works with a business",
+      "script": [
+        "Here is exactly what happens when a business works with Lion Roar 360. No mystery, no pressure, three clear steps.",
+        "Step one: understand your business. We talk through your offer, customers, goals and current setup, and find the priority.",
+        "Step two: build around that priority. You get a proposal with services, deliverables and responsibilities before work begins.",
+        "Step three: review and improve. We look at the data with your feedback, decide what to refine, and explain why in plain language.",
+        "Some clients need one focused project, like a website. Others want ongoing support across ads, content and social media.",
+        "It starts with one call. Visit lionroar360.com, request a call back, and a real person will reach you within a business day."
+      ],
+      "caption": "Understand. Build. Improve. That is how we work with every business, with a clear proposal before any work begins.\n\nRequest a call back at lionroar360.com or call (786) 550-2777. English and Spanish."
+    },
+    {
+      "id": "lr-02",
+      "pillar": "how-we-help",
+      "title": "Connected marketing: why we plan everything together",
+      "script": [
+        "Most agencies sell one piece: just ads, just a website, just social. We plan the pieces together, and here is why.",
+        "The ad decides who shows up. The website decides whether they trust you. The follow-up decides whether they become a customer.",
+        "When these are built by different people with different goals, the message breaks somewhere and the lead quietly disappears.",
+        "Connected marketing means the ad, the destination and the follow-up are one conversation, designed around your customer.",
+        "You can still start with one service. The difference is that every decision considers what comes before and after it.",
+        "Lion Roar 360 connects websites, search, ads, social, content and CRM. Call (786) 550-2777 to see the whole picture."
+      ],
+      "caption": "The ad, the website and the follow-up are one conversation. When they are built separately, the lead disappears in between.\n\nConnected marketing from Lion Roar 360. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "lr-03",
+      "pillar": "how-we-help",
+      "title": "What to expect on your first call with us",
+      "script": [
+        "Thinking about calling a marketing agency but not sure what happens next? Here is what the first call with us looks like.",
+        "It is about twenty minutes. We talk about your business, what you need to get customers, and what is working today.",
+        "We recommend where to start: marketing, the Lion Roar Connect platform, or both. Sometimes the answer is a small fix first.",
+        "If it is a fit, you receive a clear proposal with scope, deliverables and pricing before any work begins. No surprises.",
+        "No spam, no automated sales calls. A real person from Lion Roar 360 calls you back, in English or Spanish.",
+        "Ready to talk? Visit lionroar360.com and request a call back, or call (786) 550-2777 today."
+      ],
+      "caption": "Your first call with us: 20 minutes, your goals, an honest recommendation, and a clear proposal before any work begins.\n\nRequest a call back at lionroar360.com or call (786) 550-2777."
+    }
+  ]
+}

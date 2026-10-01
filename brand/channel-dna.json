@@ -1,0 +1,45 @@
+{
+  "channel_name": "LionRoar360 Instagram Reels",
+  "instagram": {
+    "handle": "lionroar360",
+    "zapier_app": "Instagram for Business",
+    "zapier_selected_api": "InstagramBusinessCLIAPI",
+    "zapier_action": "publish_video",
+    "zapier_tool_name": "instagram_for_business_publish_video",
+    "instagramPageId": "17841409674763599",
+    "instagramPageLabel": "LionRoar360"
+  },
+  "video": {
+    "workflow": "faceless-video",
+    "channel_type": "Explainer",
+    "motion_mode": "animated",
+    "talking_characters": false,
+    "style": {
+      "name": "Paper Diorama",
+      "preset_id": "83d276f6-e3aa-49b8-82f2-1a0bb7d0a370",
+      "source": "picked by the owner on 2026-10-01",
+      "palette_lock": "layered paper diorama look: deep charcoal and violet backdrops, warm gold and off-white paper layers, soft studio lighting",
+      "style_key_urls": [],
+      "formula_file": null
+    },
+    "voice": {
+      "name": "Fraser",
+      "voice_id": "6705e465-7b52-5915-a1d8-b1222885e01d",
+      "voice_type": "preset"
+    },
+    "duration_minutes": 1,
+    "blocks": 6,
+    "block_seconds": 10,
+    "aspect": "9:16",
+    "subtitles": true,
+    "thumbnail": false,
+    "music_bed": false,
+    "assets": []
+  },
+  "schedule": {
+    "cadence": "every 2 days",
+    "cron": "CRON_TZ=America/New_York 52 10 */2 * *",
+    "timezone": "America/New_York"
+  },
+  "notes": "Hand this object to the faceless-video workflow so video #2 looks like video #1. After the first successful run, fill style_key_urls, formula_file and assets from the CHANNEL DNA the workflow prints."
+}
