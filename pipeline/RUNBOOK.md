@@ -86,6 +86,23 @@ Topic id and title, the Instagram post id or permalink, the hosted video URL, cr
 shown, and anything that needed a retry. If nothing was published, say exactly which step
 failed and why.
 
+## Lessons learned on the first run (2026-10-02)
+
+- **Do not wrap narration lines in the `[ delivery ... ] [00:00-00:09]` bracket with this voice.** The
+  ElevenLabs engine behind `text2speech_v2` spoke fragments of the bracket out loud ("steady knowing
+  tone", "reassuring clarifying") and mangled the first words of five of six takes. Send the authored
+  line as plain text. After every take, transcribe it with faster-whisper in the sandbox and compare it
+  to the script before measuring; a take whose opening words differ is regenerated, never shipped.
+- Plain-text takes read faster (about 2.9 to 3.0 words per second). When the measurement script says
+  RUSHED, re-roll the same text once or swap in longer words; the duration is bimodal so one re-roll
+  usually lands inside the window.
+- `finish_video.sh` writes the voice files as `voiceNN.wav` but its sidecar names them `v_00N.wav`;
+  symlink one name to the other before `audio_to_captions.py` or the caption step fails.
+- Use `audio_to_captions.py --model medium` for the caption clock; the small model mis-hears this voice.
+- Higgsfield recommended the "IN THE DARK" preset instead of submitting the clips; resubmit the same
+  requests with `declined_preset_id` from the error.
+- Re-record the voice BEFORE generating video. Clips cost far more than takes.
+
 ## Rules that never change
 
 - One Reel per run. Never run the loop twice in one session.
