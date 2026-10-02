@@ -3,7 +3,10 @@
 
 The line rules mirror Higgsfield's faceless-video validate_motion_script.py so a
 script that passes here also passes the production gate:
-  * 6 blocks, 20-23 words each (word = letters/apostrophes/hyphens run)
+  * 6 blocks, 20-23 words each (word = letters/apostrophes/hyphens run);
+    blocks listed in a topic's measured_short_blocks may go down to 17 words,
+    which is the production validator's --duration-retry-blocks floor after a
+    take measured over 9.5 s
   * at most 2 sentences per block, no digits, no conversational filler
   * no content word repeated within 6 words
   * block 1 opens on a sentence of at most 8 words
@@ -50,11 +53,13 @@ def check_topic(t, hashtags, errors):
     if len(script) != 6:
         errors.append(f"{tid}: script must have 6 blocks, has {len(script)}")
     toks = []
+    short_ok = set(t.get("measured_short_blocks", []))
     for i, line in enumerate(script, 1):
         w = words(line)
         toks.append(w)
-        if not WMIN <= len(w) <= WMAX:
-            errors.append(f"{tid} block {i}: {len(w)} words (want {WMIN}-{WMAX})")
+        wmin = 17 if i in short_ok else WMIN
+        if not wmin <= len(w) <= WMAX:
+            errors.append(f"{tid} block {i}: {len(w)} words (want {wmin}-{WMAX})")
         n_sent = max(1, len([p for p in SENT.split(line.strip()) if p.strip()]))
         if n_sent > 2:
             errors.append(f"{tid} block {i}: {n_sent} sentences (max 2)")

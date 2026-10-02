@@ -34,7 +34,10 @@ caption, and the locked channel DNA from `brand/channel-dna.json`.
      `resolve_explainer_preset` to get the style reference `media_id`.
    - Duration **1 minute** (6 blocks × 10 s), aspect **9:16**, subtitles **yes**, thumbnail **no**.
    - Topic: **"My topic", pasted script** = the six `script_blocks` from the brief, one block per
-     line, title = brief `title`. The wording is authored and must be narrated verbatim.
+     line, title = brief `title`. Narrate the authored wording; if the topic carries
+     `measured_short_blocks`, pass them as `--duration-retry-blocks` to the validator.
+   - Hands-off concurrency: after SCRIPT LOCK submit the six narration takes AND the six clips before
+     waiting on either. Measure takes with `measure_narration_takes.py`; rewrite only failing lines.
    - Voice: `video.voice` from the DNA (currently **Fraser**,
      `voice_id 6705e465-7b52-5915-a1d8-b1222885e01d`, `voice_type preset`). Skip the picker.
    - If the DNA carries `style_key_urls` / `assets`, hand the whole `video` object to the
@@ -86,7 +89,11 @@ failed and why.
 ## Rules that never change
 
 - One Reel per run. Never run the loop twice in one session.
-- Never alter a script line; edit `content/topics.json` in a separate commit if copy must change.
+- Script lines change only through the narrator measurement loop (a take outside 7.8-9.5 s or with a pause
+  is REWRITTEN, never time-stretched). When a line is rewritten, write the final wording back into
+  `content/topics.json` in the same commit and list blocks that went below 20 words in that topic's
+  `measured_short_blocks` so `scripts/validate.py` and the production validator
+  (`--duration-retry-blocks`) agree. Captions must show exactly what was spoken.
 - No invented statistics, guarantees or client results. The validator blocks the common words.
 - Keep the two-day cadence; if a run fails, the next scheduled run picks the same topic again
   because it was never marked posted.
