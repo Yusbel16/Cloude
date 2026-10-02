@@ -54,23 +54,35 @@ caption, and the locked channel DNA from `brand/channel-dna.json`.
 5. If the workflow printed a CHANNEL DNA object with `style_key_urls` or `assets` and the
    DNA file still has them empty, copy those values into `brand/channel-dna.json`.
 
-## 3. Publish to Instagram (Zapier)
+## 3. Publish to Instagram (Zapier raw requests to the Instagram Graph API)
 
-```
-execute_zapier_write_action({
-  selected_api: "InstagramBusinessCLIAPI",
-  action: "publish_video",
-  tool_name: "instagram_for_business_publish_video",
-  params: {
-    instagramPageId: "17841409674763599",   // LionRoar360
-    video: "<confirmed hosted mp4 url>",
-    caption: "<caption from the brief>"
-  }
-})
-```
-Read the response. A success carries a media/post id (and sometimes a permalink).
-If Zapier returns an error, retry once after 60 seconds (Instagram sometimes needs the
-file to finish processing). If it fails again, record a failure and report; do not post twice.
+Do NOT use Zapier's packaged `publish_video` action: it times out while Instagram transcodes a 60-second
+2K file ("Video is still processing") and leaves nothing published. Use the three-step Graph API flow
+through Zapier's raw-request actions on the Instagram for Business app (authentication is automatic):
+
+1. Create the Reel container (write action `_zap_raw_request`, tool `instagram_for_business_make_api_mutating_request`):
+   ```
+   POST https://graph.facebook.com/v21.0/17841409674763599/media
+   querystring: media_type=REELS, share_to_feed=true, video_url=<confirmed hosted mp4 url>, caption=<caption>
+   fail_on_errors=true  -> returns {"id": "<container id>"}
+   ```
+2. Poll until FINISHED (read action, tool `instagram_for_business_make_api_get_request`), about every 30 s,
+   up to 10 minutes:
+   ```
+   GET https://graph.facebook.com/v21.0/<container id>?fields=status_code,status
+   ```
+   `IN_PROGRESS` means wait; `ERROR` means stop, record a failure and report the `status` text.
+3. Publish:
+   ```
+   POST https://graph.facebook.com/v21.0/17841409674763599/media_publish
+   querystring: creation_id=<container id>   -> returns {"id": "<media id>"}
+   ```
+4. Read the permalink for the log:
+   ```
+   GET https://graph.facebook.com/v21.0/<media id>?fields=permalink,timestamp
+   ```
+Never create a second container for the same video unless the first one reports `ERROR`; a
+container that is still processing will finish on its own.
 
 ## 4. Record and push
 
@@ -96,6 +108,8 @@ failed and why.
 - Plain-text takes read faster (about 2.9 to 3.0 words per second). When the measurement script says
   RUSHED, re-roll the same text once or swap in longer words; the duration is bimodal so one re-roll
   usually lands inside the window.
+- The assembler's own speech window is a hard 7.8 to 9.5 s per take (no soft band); a 7.7 s take fails
+  assembly, so aim for 8.0 to 9.0 s when picking takes.
 - `finish_video.sh` writes the voice files as `voiceNN.wav` but its sidecar names them `v_00N.wav`;
   symlink one name to the other before `audio_to_captions.py` or the caption step fails.
 - Use `audio_to_captions.py --model medium` for the caption clock; the small model mis-hears this voice.

@@ -1,15 +1,16 @@
 {
   "channel": "lionroar360",
-  "updated_at": "2026-10-02T13:08:44+00:00",
-  "in_progress": [
+  "updated_at": "2026-10-02T13:21:36+00:00",
+  "in_progress": [],
+  "posted": [
     {
       "topic_id": "mkt-01",
       "pillar": "why-marketing",
-      "started_at": "2026-10-02T13:08:44+00:00",
-      "status": "rendered, awaiting publish",
-      "video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/4a70b03a-f095-418c-a97a-ef5756caeca3.mp4"
+      "posted_at": "2026-10-02T13:21:36+00:00",
+      "video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/4a70b03a-f095-418c-a97a-ef5756caeca3.mp4",
+      "post_id": "18144909526605342",
+      "permalink": "https://www.instagram.com/reel/Dd_k4o3DVQa/"
     }
   ],
-  "posted": [],
   "failures": []
 }
