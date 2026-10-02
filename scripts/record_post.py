@@ -2,6 +2,7 @@
 """Record a production step in pipeline/state.json.
 
   python3 scripts/record_post.py start  --id web-01
+  python3 scripts/record_post.py ready  --id web-01 --video-url https://...   # rendered, not yet published
   python3 scripts/record_post.py posted --id web-01 --video-url https://... [--post-id 1784...] [--permalink https://instagram.com/p/...]
   python3 scripts/record_post.py failed --id web-01 --reason "phase 4 retry ladder exhausted"
 """
@@ -21,7 +22,7 @@ def now():
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("event", choices=["start", "posted", "failed"])
+    ap.add_argument("event", choices=["start", "ready", "posted", "failed"])
     ap.add_argument("--id", required=True)
     ap.add_argument("--video-url")
     ap.add_argument("--post-id")
@@ -38,6 +39,11 @@ def main():
 
     if a.event == "start":
         state["in_progress"].append({"topic_id": a.id, "pillar": pillar, "started_at": now()})
+    elif a.event == "ready":
+        if not a.video_url:
+            raise SystemExit("--video-url is required for ready")
+        state["in_progress"].append({"topic_id": a.id, "pillar": pillar, "started_at": now(),
+                                     "status": "rendered, awaiting publish", "video_url": a.video_url})
     elif a.event == "posted":
         if not a.video_url:
             raise SystemExit("--video-url is required for posted")

@@ -1,7 +1,15 @@
 {
   "channel": "lionroar360",
-  "updated_at": null,
-  "in_progress": [],
+  "updated_at": "2026-10-02T13:08:44+00:00",
+  "in_progress": [
+    {
+      "topic_id": "mkt-01",
+      "pillar": "why-marketing",
+      "started_at": "2026-10-02T13:08:44+00:00",
+      "status": "rendered, awaiting publish",
+      "video_url": "https://d2ol7oe51mr4n9.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/4a70b03a-f095-418c-a97a-ef5756caeca3.mp4"
+    }
+  ],
   "posted": [],
   "failures": []
 }

@@ -19,7 +19,9 @@
       "preset_id": "83d276f6-e3aa-49b8-82f2-1a0bb7d0a370",
       "source": "picked by the owner on 2026-10-01",
       "palette_lock": "near-black ink backgrounds (#0c0b0e), off-white (#f5f4f1) and pale grey paper monochrome, with ONE soft violet (#aa83fa) paper accent; no sepia, no brown, no gold, no other colors",
-      "style_key_urls": [],
+      "style_key_urls": [
+        "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130044_f0566cc1-4b50-4163-889b-335e34e83448.png"
+      ],
       "formula_file": null,
       "accent": "soft violet (#aa83fa)",
       "formula": "cinematic paper-diorama documentary in the Lion Roar brand palette: miniature table-top worlds built from off-white and pale grey newsprint and cardboard on near-black ink backdrops, torn layered paper edges, monochrome halftone print texture, anonymous halftone cutout figures with obscured faces, one single soft violet paper accent, distressed letterpress texture on props, warm tungsten documentary lighting with deep ink-black shadows, macro tilt-shift shallow depth of field, film grain and floating paper dust, smooth handcrafted stop-motion motion, non-photorealistic handcrafted paper materials only.",
@@ -31,7 +33,8 @@
       "captions": {
         "look": "clean",
         "language": "en"
-      }
+      },
+      "style_key_job_id": "f0566cc1-4b50-4163-889b-335e34e83448"
     },
     "voice": {
       "name": "Fraser",
@@ -45,7 +48,70 @@
     "subtitles": true,
     "thumbnail": false,
     "music_bed": false,
-    "assets": []
+    "assets": [
+      {
+        "name": "char_owner",
+        "kind": "character",
+        "job_id": "faa23ed2-398d-4c5f-a48b-d44f46765d9e",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_faa23ed2-398d-4c5f-a48b-d44f46765d9e.png"
+      },
+      {
+        "name": "char_customer",
+        "kind": "character",
+        "job_id": "40cb13c8-1347-4341-9ba8-3fdaad48c4f6",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_40cb13c8-1347-4341-9ba8-3fdaad48c4f6.png"
+      },
+      {
+        "name": "loc_street",
+        "kind": "location",
+        "job_id": "4c1970f1-26ae-4dc9-abc7-3cb5a96865da",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130339_4c1970f1-26ae-4dc9-abc7-3cb5a96865da.png"
+      },
+      {
+        "name": "loc_street_lateral",
+        "kind": "location",
+        "job_id": "bb30c2ea-c4ae-46e2-b5a5-54736eec09e1",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130339_bb30c2ea-c4ae-46e2-b5a5-54736eec09e1.png"
+      },
+      {
+        "name": "loc_phone",
+        "kind": "location",
+        "job_id": "a38d10a1-cbd3-443b-8e54-08a946781dbf",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_a38d10a1-cbd3-443b-8e54-08a946781dbf.png"
+      },
+      {
+        "name": "loc_workshop",
+        "kind": "location",
+        "job_id": "60600a80-703b-4eb8-a8ba-674cf0660c62",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_60600a80-703b-4eb8-a8ba-674cf0660c62.png"
+      },
+      {
+        "name": "loc_city",
+        "kind": "location",
+        "job_id": "4133638a-3835-464a-b969-009edd851db2",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_4133638a-3835-464a-b969-009edd851db2.png"
+      },
+      {
+        "name": "prop_lantern",
+        "kind": "prop",
+        "job_id": "9466d626-74f1-49d2-bf21-de9bc3d50fde",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_9466d626-74f1-49d2-bf21-de9bc3d50fde.png"
+      },
+      {
+        "name": "prop_stack",
+        "kind": "prop",
+        "job_id": "0e85c4bc-65e4-4555-987c-7cf4dd81c7ee",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_0e85c4bc-65e4-4555-987c-7cf4dd81c7ee.png"
+      }
+    ],
+    "narration": {
+      "format": "plain text, no delivery bracket (the engine speaks bracket text)",
+      "verify": "transcribe every take with faster-whisper and compare to the script before measuring",
+      "assembler_speech_window_seconds": [
+        7.8,
+        9.5
+      ]
+    }
   },
   "schedule": {
     "cadence": "every 2 days",
@@ -64,5 +130,9 @@
       "serif": "Playfair Display",
       "sans": "DM Sans"
     }
+  },
+  "higgsfield_project": {
+    "project_id": "2964b314-3d19-41ae-b497-63b73830aeb0",
+    "folder_id": "2964b314-3d19-41ae-b497-63b73830aeb0"
   }
 }
