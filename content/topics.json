@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "format": {
+    "blocks": 6,
+    "words_per_block": "20-23",
+    "sentences_per_block": "max 2",
+    "digits": "none (numbers as words)",
+    "cold_open": "first sentence of block 1 is at most 8 words",
+    "structure": [
+      "hook",
+      "build",
+      "build",
+      "build",
+      "turn",
+      "action: one practical thing to try this week, no pitch"
+    ],
+    "narration_rule": "Narration teaches only. No agency pitch, phone number or web address is spoken except in the how-we-help pillar. The caption carries one soft call to action."
+  },
+  "topics": [
+    {
+      "id": "tip-01",
+      "pillar": "growth-tips",
+      "title": "Know what a customer is really worth",
+      "script": [
+        "Most owners cannot answer one question. How much is a single new customer genuinely worth to your business over the coming years?",
+        "Begin with your average sale, multiply by how many times that customer purchases in a year, then multiply by the years they remain.",
+        "A cleaning client paying two hundred dollars monthly who stays around three years is actually worth over seven thousand dollars, not two hundred.",
+        "Once that number is clear, deciding what to spend on finding new customers stops being a nervous guess and becomes simple, comfortable arithmetic.",
+        "Suddenly paying fifty dollars for a lead feels cheap, and the truly expensive mistake is spending nothing because advertising always felt risky.",
+        "Work out your real customer value this week, write it down, and let that figure guide every growth decision. Follow for more tips."
+      ],
+      "caption": "How much is one customer really worth to you?\n\nAverage sale x purchases per year x years they stay. A $200/month cleaning client who stays 3 years is worth over $7,000, not $200. Know that number and every decision about finding customers gets easier.\n\nMore plain-language growth tips every week. Questions about your own numbers? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "tip-02",
+      "pillar": "growth-tips",
+      "title": "Three numbers to check every week",
+      "script": [
+        "Three numbers tell you if you are growing. Leads that came in, the share that became customers, and the average sale.",
+        "Most owners only watch the bank balance, which tells you what happened months ago rather than what is happening right now.",
+        "If leads drop, your visibility needs attention. If leads arrive but few buy, the problem sits in your sales conversation or pricing.",
+        "If plenty buy but the average sale is small, add a higher option, bundle services, or simply raise prices a little.",
+        "Each number points to a different fix, so you stop guessing and spend your limited time where it actually moves the business.",
+        "Put all three on one page every Friday, compare them with last month, and fix the weakest first. Save this for Friday."
+      ],
+      "caption": "Three numbers tell you whether your business is growing: leads in, the share that became customers, and the average sale.\n\nLeads down? Visibility. Leads in but few buy? Sales conversation or pricing. Plenty buy but small tickets? Add a higher option or raise prices a little. Check all three every Friday.\n\nMore growth tips every week. Want a second opinion on your numbers? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "tip-03",
+      "pillar": "growth-tips",
+      "title": "Speed wins more customers than talent",
+      "script": [
+        "Speed wins more customers than talent. When someone asks for a quote, the business that answers first usually gets the job.",
+        "People rarely contact only one company, so your message sits beside two or three others, and the quickest reply wins.",
+        "Aim to respond within minutes during working hours, even if the full answer takes longer, because acknowledgement itself builds trust.",
+        "Set up a short automatic text that confirms you received the request and says when a real person will phone them.",
+        "Then keep that promise, since a fast reply followed by silence feels worse to a customer than a slow but honest one.",
+        "This week, time how long your last ten inquiries waited for an answer, then cut that number in half. Save this tip."
+      ],
+      "caption": "Speed wins more customers than talent. When someone asks for a quote, the business that answers first usually gets the job.\n\nReply within minutes during working hours, even if the full answer comes later. An automatic text that confirms the request and promises a call back buys you time, as long as you keep the promise.\n\nMore growth tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "tip-04",
+      "pillar": "growth-tips",
+      "title": "Turn happy customers into reviews",
+      "script": [
+        "Reviews are the new word of mouth. Before anyone calls you, they have already read what strangers said about your work.",
+        "Happy customers rarely leave a review on their own, not because they are ungrateful, simply since nobody asked at the right moment.",
+        "The best time to ask is the moment they thank you, when the job is finished and the relief is fresh.",
+        "Make it effortless: send a direct link by text while you are still there, and say that honest feedback helps a small business.",
+        "Then reply to every review, including the rough ones, because future customers read your answers to judge how you handle problems.",
+        "Ask one customer for a review every single day, and in a year your profile will outshine competitors. Share this with an owner."
+      ],
+      "caption": "Reviews are the new word of mouth. Happy customers rarely leave one on their own, because nobody asked at the right moment.\n\nAsk when they thank you. Send a direct link by text while you are still there. Reply to every review, including the rough ones. One ask a day adds up fast.\n\nMore growth tips every week. Questions about your profile? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "tip-05",
+      "pillar": "growth-tips",
+      "title": "Your cheapest growth is already in your phone",
+      "script": [
+        "Your cheapest growth is already in your phone. Past customers know you, trust you, and need far less convincing than strangers.",
+        "Most businesses chase new leads constantly while hundreds of previous clients quietly forget they exist and drift toward whoever shows up.",
+        "Start simple: a list of everyone you have served, with a note on what they bought and when they might need you again.",
+        "Then reach out before they need you: a seasonal reminder, a helpful tip, or a friendly check in that asks for nothing.",
+        "A single message to old clients often brings in more work than a month of advertising, at almost no cost whatsoever.",
+        "Pick ten past customers today and send each a personal note, with no sales pitch attached. Follow for the next tip."
+      ],
+      "caption": "Your cheapest growth is already in your phone. Past customers know you, trust you and need far less convincing than strangers.\n\nList everyone you have served. Note what they bought and when they might need you again. Reach out before they need you, with a reminder or a useful tip and no sales pitch.\n\nMore growth tips every week. Questions? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "tip-06",
+      "pillar": "growth-tips",
+      "title": "Say one thing clearly",
+      "script": [
+        "Trying to serve everyone slows your growth. The business that says one clear thing gets remembered, recommended and chosen far more often.",
+        "When a customer cannot explain what you do in a sentence, they cannot refer you, and referrals are how small companies grow.",
+        "Look at your last twenty jobs and notice which type paid best, went smoothest, and brought the happiest people back again.",
+        "Lead with that specialty everywhere: your website headline, your profile, your ads, and the way you introduce yourself at events.",
+        "Being specific does not mean turning work away; it means being the obvious choice for one thing while still accepting the rest.",
+        "Write the one sentence a happy customer would use to describe you, then put it on top of your website. Save this."
+      ],
+      "caption": "Trying to serve everyone slows your growth. The business that says one clear thing gets remembered, recommended and chosen.\n\nLook at your last 20 jobs. Which type paid best and went smoothest? Lead with that everywhere: website headline, profile, ads, introductions. Specific does not mean turning work away.\n\nMore growth tips every week. Want help finding your one sentence? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "mkt-01",
+      "pillar": "why-marketing",
+      "title": "Why marketing is not optional anymore",
+      "script": [
+        "Nobody can choose what they cannot find. That is the fundamental reason marketing exists today, and it matters more with every passing year.",
+        "Most people now search online before they ever call, comparing websites, reviews and ads within minutes, without ever speaking to anyone.",
+        "A business with great work and no visibility keeps losing to a weaker rival who simply shows up first and looks more credible.",
+        "Marketing is not about being loud. It means getting discovered, understood, and making the next step easy, for every single customer.",
+        "Small steady effort beats big bursts every time, since regular work adds up while silence slowly wipes out everything.",
+        "Lion Roar Three Sixty helps businesses get found, and stay connected. So visit lion roar three sixty dot com, and request a call."
+      ],
+      "caption": "Great work is not enough if nobody can find it. Marketing is how customers discover you, understand you and choose you.\n\nWe help Miami and nationwide businesses get found and stay connected. Request a call back at lionroar360.com or call (786) 550-2777.",
+      "measured_short_blocks": [
+        2,
+        4,
+        5
+      ],
+      "measured": true
+    },
+    {
+      "id": "mkt-02",
+      "pillar": "why-marketing",
+      "title": "Attention is only the beginning",
+      "script": [
+        "Attention is only the beginning. Many businesses pay for the click, celebrate the traffic, and then watch nothing happen afterward.",
+        "An ad can bring someone to your website, but the message has to make sense and the next step has to be obvious.",
+        "When an inquiry finally arrives, slow follow-up quietly wastes the money you spent, because the customer has already called your competitor.",
+        "Think of marketing as one journey: how someone discovers you, why they decide to reach out, and what happens after.",
+        "The weakest link is rarely the ad itself; it is usually the website or the follow-up, where almost nobody bothers to look.",
+        "Walk your own journey as a customer this week, from ad to website to reply, and fix the first place it breaks."
+      ],
+      "caption": "Attention is only the beginning. The ad, the website and the follow-up have to work together or the money leaks out somewhere.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "mkt-03",
+      "pillar": "why-marketing",
+      "title": "The cost of being invisible",
+      "script": [
+        "Being invisible has a cost. Every day a business stays hidden online, customers who were ready to buy choose someone else instead.",
+        "Think about your own habits when you need a plumber, a clinic or a cabinet maker: you search, you compare, you pick.",
+        "The businesses that win those moments are not always the best, they are simply the ones that appear credible and easy to contact.",
+        "Visibility is built rather than bought once, because a clear website, an accurate listing and steady content compound over many months.",
+        "The twist is that the cost never appears on any invoice, so most owners never realize how much silence has been charging them.",
+        "Search your own service tonight the way a stranger would, and notice who appears before you. That gap is your starting point."
+      ],
+      "caption": "Being invisible online has a cost. It just never shows up on an invoice.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "mkt-04",
+      "pillar": "why-marketing",
+      "title": "Marketing for small businesses is a system, not a stunt",
+      "script": [
+        "Growth is a system, not a stunt. One viral post will not grow a business, but a simple weekly rhythm will.",
+        "First comes a website that explains your offer clearly, then a way to be found through search or ads, then consistent content.",
+        "Fourth, every inquiry lands in one place with reminders so nobody is forgotten, and fifth, a monthly look at what worked.",
+        "Each piece feeds the next: the content fuels the advertising, the ads bring visitors, and those people feed the follow-up.",
+        "Surprisingly, you do not need everything on day one; the business that fixes its most broken piece first usually outgrows the perfectionist.",
+        "Choose the most broken piece of your system and spend this month fixing only that one. Then move to the next."
+      ],
+      "caption": "Growth is a system, not a stunt. Website, visibility, content, follow-up and review, each part supporting the next.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "mkt-05",
+      "pillar": "why-marketing",
+      "title": "Why your competitors are growing and you are not",
+      "script": [
+        "Same quality, different results. One business grows every year while the other stays flat, and luck is rarely the real reason.",
+        "The growing business is easy to find on Google, its website answers questions before the call, and its reviews are recent.",
+        "It runs ads with a clear promise, sends people to a page that keeps that promise, and follows up the same day.",
+        "The flat business relies on word of mouth alone, which works until referrals slow down and nothing else is there to catch it.",
+        "The gap closes in months rather than years when you fix the basics in order: website, listing, follow-up, then advertising.",
+        "Compare yourself honestly against the busiest competitor in town on those four basics, then fix your weakest one this quarter."
+      ],
+      "caption": "Same quality, same prices, different results. The growing business is easy to find, easy to understand and quick to follow up.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "mkt-06",
+      "pillar": "why-marketing",
+      "title": "Marketing in English and Spanish",
+      "script": [
+        "Many customers search in Spanish. In Miami and across the country, is your business ready to answer them in their language?",
+        "Serving a bilingual audience is not just translation, it is making the message, the forms and the follow-up feel natural in both.",
+        "A Spanish speaking customer who meets a confusing English only page often leaves without calling, even when you were the best option.",
+        "Simple steps help: a Spanish service page, bilingual ad copy, and a team or automated assistant that can respond either way.",
+        "Done well, this opens a market most competitors ignore, using the website and the budget you already pay for every single month.",
+        "Start with a single Spanish service page and a bilingual greeting on your phone, then watch where the new inquiries come from."
+      ],
+      "caption": "Many of your customers search in Spanish. A bilingual website, bilingual ads and bilingual follow-up open a market most competitors ignore.\n\nHablamos español. ¿Preguntas? Escríbenos o visita lionroar360.com."
+    },
+    {
+      "id": "web-01",
+      "pillar": "website",
+      "title": "Your website is where the decision happens",
+      "script": [
+        "Your ad got the click. Your website takes it from there, and that handoff is exactly where most businesses lose the customer.",
+        "A visitor decides within seconds whether they understand what you do, whether they trust you, and how they would contact you.",
+        "If the page is slow, confusing on a phone, or buried under everything you offer, they leave and call the next result.",
+        "A high quality website is not about looking fancy; it is clear structure, fast loading, real proof and one obvious next step.",
+        "Try this test: can a stranger explain your main service and find your phone number within ten seconds on a mobile screen?",
+        "Hand your phone to a friend tonight and ask them to find your main service and number. Watch where they hesitate."
+      ],
+      "caption": "Your ad got the click. Your website takes it from here. Clear structure, fast loading, real proof and one obvious next step.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "web-02",
+      "pillar": "website",
+      "title": "Three signs your website is costing you customers",
+      "script": [
+        "Three signs your website costs you customers. If you recognize even one of them, it is time to fix the problem.",
+        "Sign one: people call asking basic questions your website should already answer, such as pricing ranges, service areas or opening hours.",
+        "Sign two: visitors arrive from ads but few useful inquiries follow, because the destination never continues the conversation the ad started.",
+        "Sign three: the site feels awkward on a phone, or it no longer reflects the business you actually run today.",
+        "Here is the relief: each of these is fixable without a full rebuild, since a clearer service page often solves the priority problem.",
+        "Pick the sign you recognized most and fix just that page this month, then listen for whether the calls start changing."
+      ],
+      "caption": "Three signs your website is costing you customers: basic questions on every call, ad clicks with no inquiries, and a clumsy mobile experience.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "web-03",
+      "pillar": "website",
+      "title": "Why website speed matters to your customers",
+      "script": [
+        "Speed is trust. A slow website adds friction before a visitor sees your offer, and on a phone every second pushes people away.",
+        "A page that stalls feels neglected, so visitors quietly assume the business behind it might be neglected as well, and move on.",
+        "The usual causes are heavy images, too many plugins, cheap hosting, and code that nobody cleaned up after the original launch.",
+        "The fix is practical: optimize images, trim what you do not use, choose solid hosting, and test mobile and desktop separately.",
+        "We aim for a ninety plus performance score on key pages, yet a score by itself creates nothing; slow pages simply lose sales.",
+        "Test your site on a phone over mobile data today, and if it feels slow, make speed your next project."
+      ],
+      "caption": "A slow website loses customers before they see your offer. Speed is trust.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "web-04",
+      "pillar": "website",
+      "title": "The ad promise must match the landing page",
+      "script": [
+        "The ad made a promise. A customer clicks for one service and lands on a homepage describing everything, and that mismatch costs leads.",
+        "The page should keep the promise: identical service, the same audience, familiar language, and only the proof that matters for that decision.",
+        "A focused landing page answers that customer's questions, shows relevant finished work, and offers exactly one clear way to inquire.",
+        "This single change often improves results more than raising the budget, because you stop losing people you already paid to attract.",
+        "So before launching any campaign, ask where the click lands and whether that page continues the conversation the ad began.",
+        "Open your ad next to your landing page, and if the headline changes, rewrite the page until the promise matches."
+      ],
+      "caption": "The ad made a promise. The landing page has to keep it. A focused page beats a bigger budget more often than you would think.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "web-05",
+      "pillar": "website",
+      "title": "Mobile first is not a trend, it is your customer",
+      "script": [
+        "Your customer is holding a phone. Usually with one hand, often in a hurry, so design the website for that person first.",
+        "Mobile first means big tap targets, short menus, a visible call button, and forms that ask only what you truly need to know.",
+        "It also means content order: who you help, what you do, and the next step should appear before anything else does.",
+        "Test it yourself by opening your site on a phone, trying to book or call, and counting every tap along the way.",
+        "The surprise is that each tap is a chance to quit, which is why a tidy mobile journey outperforms a beautiful desktop one.",
+        "Before any redesign, hold your phone in one hand and try to book from your homepage. Fix whatever gets in the way."
+      ],
+      "caption": "Your customer is holding a phone, in a hurry, with one hand. Design for that person first.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "web-06",
+      "pillar": "website",
+      "title": "Do you really need a new website?",
+      "script": [
+        "You might not need a new website. Sometimes the honest answer saves thousands of dollars, so here is how to decide properly.",
+        "If the structure is sound but one service page is unclear, rewrite it, and if the contact form confuses people, simplify it.",
+        "If the site is slow, outdated on mobile, built on a platform you cannot update, or misrepresents your business, then rebuild it.",
+        "A review always comes first, looking at the current platform, the content, the integrations and the inquiry flow before deciding anything.",
+        "Either path chases the same goal, being simpler to find, to understand and to contact, and the path should fit your budget.",
+        "Ask yourself what your website should do that it currently does not, then fix that one thing before buying anything new."
+      ],
+      "caption": "You might not need a new website. A clearer service page or a better form may solve the real problem.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "seo-01",
+      "pillar": "be-found",
+      "title": "Local SEO explained in one minute",
+      "script": [
+        "Do you show up nearby? When someone close by searches for what you do, local search decides whether they ever see you.",
+        "Google weighs three things: how relevant your business is, how close you are, and how prominent you appear across the web.",
+        "You influence all three with a complete Google Business Profile, accurate categories and hours, and consistent details on every site.",
+        "Add recent reviews, real photos of finished work, and service pages on your website that match what people actually type.",
+        "Local search rewards patience more than cleverness, because the profile kept active for a year usually owns its neighborhood results.",
+        "This week, complete every field on your business profile and ask three recent customers for a review. That alone is a strong start."
+      ],
+      "caption": "Local search comes down to relevance, distance and prominence. You control more of it than you think.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "seo-02",
+      "pillar": "be-found",
+      "title": "Your Google Business Profile is a free salesperson",
+      "script": [
+        "Your profile is a free salesperson. Your Google Business Profile works all day for nothing, yet most owners leave it half finished.",
+        "Fill in every field, meaning services, hours, service area, description and attributes, because Google rewards complete and consistent profiles everywhere.",
+        "Upload real photos regularly, since customers trust a business they can see, and recent pictures signal that you are open and active.",
+        "Ask happy customers for reviews and answer every single one, including the critical ones, calmly and briefly, where future customers read.",
+        "The overlooked move is monthly posts, because offers, finished projects and simple tips keep the profile fresh and give searchers a reason.",
+        "Open your profile right now, add five real photos from recent jobs, and write one short post about this week's work."
+      ],
+      "caption": "Your Google Business Profile works 24 hours a day for free. Complete it, add photos, collect reviews, post monthly.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "seo-03",
+      "pillar": "be-found",
+      "title": "Content that gets found: write for the question",
+      "script": [
+        "Nobody searches for your company name. People search for their problem, so your content should answer that problem directly and plainly.",
+        "Make a list of the questions customers ask you every week, because each one is a page or post waiting to be written.",
+        "Answer plainly with your real experience and include the next step, since useful content earns trust long before the first call.",
+        "Keep the technical foundations clean with fast pages, clear titles, working links, and a site structure that search engines can follow.",
+        "The counterintuitive part is that one helpful page a month, every single time, outperforms ten rushed pages published once a year.",
+        "Write down the ten questions customers ask you most often, then answer each one on its own page in plain language."
+      ],
+      "caption": "Customers search for their problem, not your company name. Answer the question and you earn the call.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "seo-04",
+      "pillar": "be-found",
+      "title": "SEO versus ads: which one first?",
+      "script": [
+        "Search or ads, which first? Business owners ask constantly, and the honest answer depends on how soon the phone must ring.",
+        "Ads bring traffic this week but end the moment you stop paying, while search builds slowly and then keeps paying for years.",
+        "If you need customers now, start with search ads on a focused landing page while the organic foundation is being built.",
+        "If cash flow is steady, invest in your website, local listing and content first, then add ads to accelerate what works.",
+        "The strongest businesses run both, because the ads reveal which messages convert, and that insight makes the organic content sharper.",
+        "If you need customers this month, start with a small ad test; if you can wait, begin building search content today."
+      ],
+      "caption": "SEO or ads? Ads work this week and stop when you stop. SEO is slow and then compounds. Most strong businesses run both.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "ads-01",
+      "pillar": "be-found",
+      "title": "Google Ads: reach people already looking for you",
+      "script": [
+        "Reach people already looking for you. Google Ads puts your business in front of people searching for exactly what you offer nearby.",
+        "That intent is the advantage, because someone typing emergency plumber near me is not browsing, they are ready to call someone.",
+        "The campaign works when three things line up: the right keywords, a message matching the search, and a page that delivers.",
+        "Watch the data weekly, pause what wastes money, add negative keywords, and move budget toward the searches that become real calls.",
+        "Done carelessly it burns money fast, yet done well it becomes the most predictable source of new customers a business can own.",
+        "Before raising any budget, read your search terms report and remove the words that bring clicks from people who could never buy."
+      ],
+      "caption": "Google Ads reaches people already searching for what you do. Keywords, message and landing page have to line up.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "ads-02",
+      "pillar": "be-found",
+      "title": "Facebook and Instagram ads that feel like content",
+      "script": [
+        "Nobody on Instagram is searching for you. You interrupt their scroll, so the creative has to earn attention within the first second.",
+        "The best ads look like good content: a real project, a quick before and after, a short tip, or a trustworthy face.",
+        "Target by location and interest, then let the platform learn from who actually engages, keeping the opening moments strong and clear.",
+        "Send people to a page that matches the ad, and make the next step easy with a form, call button or message.",
+        "The lesson is that small budgets work when the creative does the heavy lifting, so test three versions and keep the winner.",
+        "Film one honest minute of your work on a phone this week and run it as an ad before paying for anything polished."
+      ],
+      "caption": "On Facebook and Instagram nobody is searching for you. The creative has to earn attention and feel like content.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "ads-03",
+      "pillar": "be-found",
+      "title": "Why your ads get clicks but no customers",
+      "script": [
+        "Clicks but no customers? Before you blame the platform, check four things that quietly lose the people you already paid for.",
+        "One, the ad promises something the landing page never delivers, and two, the page is slow or confusing on a mobile phone.",
+        "Three, the form asks for too much or the phone number is hidden, and four, nobody follows up quickly when a lead arrives.",
+        "Clicks are the cheapest part of the journey, while the expensive loss happens after the click, where most businesses never look.",
+        "Fix the page and the follow-up before touching targeting, because usually the budget was fine and the destination was broken.",
+        "Pause the campaign for a day, submit your own form from a phone, and see how long it takes someone to respond."
+      ],
+      "caption": "Clicks but no customers? Check the landing page, the mobile experience, the form and the follow-up before blaming the ads.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "ads-04",
+      "pillar": "be-found",
+      "title": "How much should a small business spend on ads?",
+      "script": [
+        "There is no magic ad budget. But there is a sensible way to find yours, and it starts with one simple question.",
+        "Start with what a new customer is worth to you over a year, then decide what you can afford to pay for one.",
+        "Begin with a modest steady budget for a month, enough to gather real data yet small enough that mistakes stay cheap.",
+        "Measure cost per lead and the price of each booked job rather than clicks, and raise spending only on campaigns producing customers.",
+        "A clear strategy before the first dollar prevents the most common outcome, which is a big budget with no tracking and no lessons.",
+        "Decide what one customer brings you, set a budget you can keep for three months, and judge results by real leads only."
+      ],
+      "caption": "There is no magic ad budget. Know what a customer is worth, start steady, measure cost per real lead, then scale what works.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "crm-01",
+      "pillar": "follow-up",
+      "title": "The lead you forgot to call back",
+      "script": [
+        "You forgot to call a lead back. Somewhere in your voicemail sits a paying customer, and here is how to stop losing them.",
+        "Speed wins, because the business that responds first, within minutes, usually gets the job even when it is not the cheapest.",
+        "Every inquiry needs one place to land: a pipeline with stages, a reminder, and a record of the conversation so far.",
+        "Automate the first reply, since a quick confirmation text tells the customer they were heard while you finish the job at hand.",
+        "Then follow up on a schedule, because two, three, four touches over a week recover inquiries that would otherwise go quiet forever.",
+        "Tonight, list every inquiry from the past month and mark which ones never got a second touch. Call them tomorrow morning."
+      ],
+      "caption": "The lead you forgot to call back was a paying customer. Fast first reply, one pipeline, scheduled follow-up.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "crm-02",
+      "pillar": "follow-up",
+      "title": "What a CRM actually does for a small business",
+      "script": [
+        "A CRM is simpler than it sounds. For a small business it is one place where every customer conversation lives and moves.",
+        "A lead comes in from your website, an ad or a call, and lands in a pipeline: new inquiry, in conversation, appointment, won.",
+        "Email, text and WhatsApp follow-ups go out automatically, so nobody is forgotten while your team is busy doing the actual work.",
+        "Calendars and reminders keep appointments on track, and everyone sees the history, so the customer never has to repeat themselves.",
+        "The real result is calm: fewer dropped leads, faster replies, and a clear view of what is coming next for the business.",
+        "You do not need expensive software to begin; a shared spreadsheet with a next step column beats a memory every time."
+      ],
+      "caption": "A CRM for a small business is simple: one place where every customer conversation lives, with automatic follow-up.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "crm-03",
+      "pillar": "follow-up",
+      "title": "An AI phone assistant that never misses a call",
+      "script": [
+        "Missed calls are lost customers. When you are on a job or with a patient, who answers the phone for your business?",
+        "An AI phone assistant answers every incoming inquiry, collects the details, books the appointment, and sends you a short summary.",
+        "It works after hours, in English and Spanish, and it never puts a customer on hold or forgets to write down a number.",
+        "The customer gets an immediate, polite response, and you get a lead in your pipeline instead of a voicemail you hear tomorrow.",
+        "Combined with text follow-up, this turns the calls you used to miss into booked conversations without hiring a single extra person.",
+        "Count the calls you missed last week, and multiply by what one job is worth. That figure is the real cost of voicemail."
+      ],
+      "caption": "When you are on a job, who answers your phone? An AI assistant can answer, collect details and book, in English and Spanish.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "crm-04",
+      "pillar": "follow-up",
+      "title": "Email and SMS: the follow-up most businesses skip",
+      "script": [
+        "Keeping a customer costs less. Most businesses spend to win new customers and almost nothing to keep the ones they have.",
+        "A simple monthly email keeps you top of mind with a finished project, a seasonal reminder, a helpful tip, or a limited offer.",
+        "Text messages suit what is time sensitive, such as appointment reminders, quick confirmations, and reactivating past customers who went quiet recently.",
+        "Always get consent, keep messages short, and give people a clear way to stop, because respect builds the list and spam destroys it.",
+        "Reconnecting with past customers is the cheapest growth available, since they trust you already and know the quality of your work.",
+        "Send one useful message to your past customers this month, with a tip they can use, and ask for nothing in return."
+      ],
+      "caption": "Keeping a customer costs less than finding a new one. Email and SMS follow-up keeps you top of mind, with consent and respect.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "soc-01",
+      "pillar": "social-content",
+      "title": "Consistency beats perfection on social media",
+      "script": [
+        "You do not need to go viral. Simply show up consistently, so customers see you as active, present and trustworthy over time.",
+        "A simple rhythm works: two or three posts a week mixing finished work, behind the scenes, quick tips and customer words.",
+        "Plan a month at a time, batch the content in one afternoon, then schedule it so the business keeps posting while you work.",
+        "Reply to comments and messages quickly, because social media is a conversation, and responsiveness is part of your reputation now.",
+        "Review what people engaged with each month and make more of it, since your audience tells you what they want if you look.",
+        "Block two hours this weekend, record eight short videos in one sitting, and schedule them so you never scramble for content."
+      ],
+      "caption": "You do not need to go viral. You need to show up consistently. Plan a month, batch the content, reply fast, review monthly.\n\nMore plain-language tips every week. Questions? Visit lionroar360.com or call (786) 550-2777."
+    },
+    {
+      "id": "soc-02",
+      "pillar": "social-content",
+      "title": "Why video is the strongest content you can make",
+      "script": [
+        "Video is the closest thing to meeting you. That is why it builds trust faster than any other content a business can make.",
+        "Short videos work everywhere, on Instagram, Facebook, YouTube, your website, your ads, and even inside your email follow-up sequence to customers.",
+        "You do not need a studio, because a clear message, decent light, steady sound, and a purpose for every clip matter far more.",
+        "Show the work, explain a common question, walk through a finished project, or let a happy customer speak in their own words.",
+        "The efficient secret is that one well made video can be cut into many pieces and reused for months across every channel.",
+        "Record yourself answering the question customers ask most, in one take on your phone, and post it before you overthink it."
+      ],
+      "caption": "Video is the closest thing to meeting you in person. One good video becomes months of content across every channel.\n\nQuestions about your own business? Send us a message or visit lionroar360.com."
+    },
+    {
+      "id": "soc-03",
+      "pillar": "social-content",
+      "title": "Your brand is more than a logo",
+      "script": [
+        "A brand is not a logo. It is the feeling a customer has before, during and after working with you, here is why.",
+        "Positioning decides who you are for and why you are different, while identity decides how that looks and sounds everywhere.",
+        "Consistency is what makes it work: the same colors, tone and promise on the website, the van, the ads and the invoice.",
+        "A distinctive, consistent presence makes every other marketing dollar more efficient, because people recognize and remember you much faster than before.",
+        "Start by writing one sentence that says who you help and what makes you the right choice, then grow everything from it.",
+        "Gather your website, your truck, your invoice and your profile pictures in one place, and ask whether they look like one company."
+      ],
+      "caption": "A brand is the feeling a customer has before, during and after working with you. Consistency makes every marketing dollar work harder.\n\nWant a second opinion on yours? Message us or visit lionroar360.com."
+    },
+    {
+      "id": "lr-01",
+      "pillar": "how-we-help",
+      "title": "How Lion Roar 360 works with a business",
+      "script": [
+        "Here is exactly how we work. No mystery and no pressure, just three clear steps every business goes through with us.",
+        "Step one is understanding your business: we talk through your offer, customers, goals and current setup, and find the priority together.",
+        "Step two is building around that priority, so you get a proposal with services, deliverables and responsibilities before any work begins.",
+        "Step three is reviewing and improving, where we look at the data with your feedback and explain what to refine in plain language.",
+        "Some clients need one focused project like a website, while others want ongoing support across ads, content and social media.",
+        "It starts with one call, so visit lion roar three sixty dot com, request a call back, and a real person responds."
+      ],
+      "caption": "Understand. Build. Improve. That is how we work with every business, with a clear proposal before any work begins.\n\nRequest a call back at lionroar360.com or call (786) 550-2777. English and Spanish."
+    },
+    {
+      "id": "lr-02",
+      "pillar": "how-we-help",
+      "title": "Connected marketing: why we plan everything together",
+      "script": [
+        "Most agencies sell one piece. Just ads, just a website, or just social, and we plan the pieces together for a reason.",
+        "The ad decides who shows up, the website decides whether they trust you, and the follow-up decides whether they become a customer.",
+        "When separate people build these with unrelated goals, the message breaks somewhere, and the lead quietly disappears in the gap.",
+        "Connected marketing means the ad, the destination and the follow-up form one conversation designed entirely around your customer's journey with you.",
+        "You can still start with one service, and the difference is that every decision considers what comes before and after it.",
+        "Lion Roar Three Sixty connects websites, search, ads, social, content and CRM, so visit lion roar three sixty dot com to see it."
+      ],
+      "caption": "The ad, the website and the follow-up are one conversation. When they are built separately, the lead disappears in between.\n\nConnected marketing from Lion Roar 360. Call (786) 550-2777 or visit lionroar360.com."
+    },
+    {
+      "id": "lr-03",
+      "pillar": "how-we-help",
+      "title": "What to expect on your first call with us",
+      "script": [
+        "What happens on the first call? If you are thinking about contacting an agency, here is exactly what to expect from us.",
+        "It takes about twenty minutes, and we talk about your business, what you need to get customers, and what is working today.",
+        "We recommend where to start, meaning marketing, the Lion Roar Connect platform, or both, and sometimes the answer is a small fix.",
+        "If it is a fit, you receive a clear proposal with scope, deliverables and pricing before any work begins, with no surprises.",
+        "There is no spam and no automated sales call, because a real person from our team calls you back in English or Spanish.",
+        "Ready to talk? Visit lion roar three sixty dot com and request a call back, and we will reach you within one day."
+      ],
+      "caption": "Your first call with us: 20 minutes, your goals, an honest recommendation, and a clear proposal before any work begins.\n\nRequest a call back at lionroar360.com or call (786) 550-2777."
+    }
+  ]
+}
