@@ -1,15 +1,15 @@
 # LionRoar360 Instagram video automation
 
 Produces a high-quality, narrated explainer Reel every 2 days and publishes it to the
-**@lionroar360** Instagram account. The videos teach business owners why marketing, a
-high-quality website, being found online and fast follow-up grow a business, and how
-Lion Roar 360 helps.
+**@lionroar360** Instagram account. The videos teach business owners practical ways to grow:
+growth tips, why marketing matters, a high-quality website, being found online and fast
+follow-up. The narration never pitches the agency; one soft call to action sits in the caption.
 
 | Part | Where |
 |---|---|
 | Brand voice, services, tone, CTAs (from lionroar360.com) | `brand/brand-brief.md` |
 | Locked production settings (style, voice, Instagram account, cadence) | `brand/channel-dna.json` |
-| 30 finished scripts and captions across six content pillars | `content/topics.json`, `content/hashtags.json` |
+| 36 finished scripts and captions across seven content pillars | `content/topics.json`, `content/hashtags.json` |
 | Step-by-step procedure the scheduled session follows | `pipeline/RUNBOOK.md` |
 | What has been posted | `pipeline/state.json` |
 | Helpers: pick next topic, record a post, validate everything | `scripts/` |
@@ -27,7 +27,8 @@ the Higgsfield and Zapier connectors, and follows `pipeline/RUNBOOK.md`:
 
 ## Editing content
 
-- Add or edit topics in `content/topics.json` (six blocks of 14 to 26 words each, one CTA).
+- Add or edit topics in `content/topics.json` (six blocks of 20 to 23 words; narration teaches only,
+  the caption carries one soft CTA). `scripts/validate.py` rejects a pitch in the spoken script.
 - Run `python3 scripts/validate.py` before committing. It rejects guarantee-style claims.
 - Change the look or voice in `brand/channel-dna.json`; the next run picks it up.
 - To force a specific topic for the next run: `python3 scripts/next_topic.py --id web-01`.

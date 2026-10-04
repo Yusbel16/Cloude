@@ -46,7 +46,9 @@ caption, and the locked channel DNA from `brand/channel-dna.json`.
    every image and clip prompt, with its `palette_lock` (website palette: ink black, off-white paper,
    one soft violet accent, no sepia or gold). Premium editorial feel, no faces of real people, no competitor logos, no text
    claims that are not in the script. Scenes illustrate small-business life: storefronts,
-   phones, websites on screens, a lion motif is welcome but not required.
+   phones, websites on screens, a lion motif is welcome but not required. The final scene
+   illustrates the action the script asks the viewer to take, never the agency: no logo
+   reveal, no phone number, no web address on screen (owner decision: teach, do not advertise).
 4. Deliver per Phase 9: `media_upload` → PUT → `media_confirm`. Keep the **confirmed hosted
    video URL**. Run the FINAL QC CHECKLIST. If the run fails unrecoverably, record it:
    `python3 scripts/record_post.py failed --id <topic_id> --reason "<phase and cause>"`, commit,

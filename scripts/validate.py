@@ -11,6 +11,8 @@ script that passes here also passes the production gate:
   * no content word repeated within 6 words
   * block 1 opens on a sentence of at most 8 words
   * no verbatim 5-word phrase shared by two blocks of the same topic
+  * narration teaches only: no agency pitch, URL or call-back line in the spoken
+    script outside the how-we-help pillar (already-posted topics are exempt)
 Exit 1 on any problem so CI and the runbook can gate on it."""
 import json
 import pathlib
@@ -24,7 +26,9 @@ FILLER = re.compile(r"\b(?:you\s+know|y'?know|i\s+mean|sort\s+of|kinda|basically
 STOP = set("a an and are as at be but by can did do does for from had has have he her here his how i if in into is it its just me my no not of on one or our out over she so than that the their them then there these they this those to up was we were what when why will with would you your".split())
 NUMBERS = set("zero one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty thirty forty fifty sixty seventy eighty ninety hundred thousand million billion trillion first second third fourth fifth sixth seventh eighth ninth tenth half quarter dozen".split())
 BANNED = re.compile(r"\b(guarantee|guaranteed|number one|double your|triple your)\b", re.I)
-PILLARS = {"why-marketing", "website", "be-found", "follow-up", "social-content", "how-we-help"}
+# Narration teaches; the pitch lives in the caption. Only the how-we-help pillar may speak it.
+PITCH = re.compile(r"lion\s+roar|dot\s+com|request\s+a\s+call|call\s+back|lionroar360", re.I)
+PILLARS = {"growth-tips", "why-marketing", "website", "be-found", "follow-up", "social-content", "how-we-help"}
 WMIN, WMAX, MAX_CAPTION, HOOK_WORDS, SHARED = 20, 23, 2200, 8, 5
 
 
@@ -45,7 +49,7 @@ def shared_run(a, b):
     return best
 
 
-def check_topic(t, hashtags, errors):
+def check_topic(t, hashtags, errors, posted=()):
     tid = t["id"]
     if t["pillar"] not in PILLARS:
         errors.append(f"{tid}: unknown pillar {t['pillar']}")
@@ -69,6 +73,8 @@ def check_topic(t, hashtags, errors):
             errors.append(f"{tid} block {i}: conversational filler")
         if BANNED.search(line):
             errors.append(f"{tid} block {i}: banned claim wording")
+        if t["pillar"] != "how-we-help" and tid not in posted and PITCH.search(line):
+            errors.append(f"{tid} block {i}: agency pitch in narration (teach only; the caption carries the CTA)")
         for k, tok in enumerate(w):
             if tok in STOP or tok in NUMBERS or len(tok) < 3:
                 continue
@@ -96,12 +102,14 @@ def main():
     errors = []
     topics = json.loads((ROOT / "content/topics.json").read_text(encoding="utf-8"))["topics"]
     hashtags = json.loads((ROOT / "content/hashtags.json").read_text(encoding="utf-8"))["default"]
+    state = json.loads((ROOT / "pipeline/state.json").read_text(encoding="utf-8"))
+    posted_ids = {p["topic_id"] for p in state.get("posted", [])}
     ids = set()
     for t in topics:
         if t["id"] in ids:
             errors.append(f"{t['id']}: duplicate id")
         ids.add(t["id"])
-        check_topic(t, hashtags, errors)
+        check_topic(t, hashtags, errors, posted_ids)
     dna = json.loads((ROOT / "brand/channel-dna.json").read_text(encoding="utf-8"))
     for key in ("instagramPageId", "zapier_action"):
         if not dna["instagram"].get(key):
@@ -110,7 +118,6 @@ def main():
         errors.append("channel-dna.video.aspect must be 9:16 for Reels")
     if not dna["video"]["voice"].get("voice_id") or not dna["video"]["style"].get("preset_id"):
         errors.append("channel-dna.video voice_id / style.preset_id missing")
-    state = json.loads((ROOT / "pipeline/state.json").read_text(encoding="utf-8"))
     for p in state.get("posted", []):
         if p["topic_id"] not in ids:
             errors.append(f"state.posted references unknown topic {p['topic_id']}")

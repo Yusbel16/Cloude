@@ -45,7 +45,11 @@ Surgery, Odalis Cleaning Services. Only reference them with the wording the site
 ## Tone of voice
 
 - Clear, calm, confident. Plain language. No hype, no jargon, no fear tactics.
-- Teach first, sell second. Each video gives a business owner one useful idea they can act on.
+- Teach, do not advertise (owner decision, October 2026). The spoken script is one hundred percent
+  teaching: a useful idea plus one concrete thing to try this week. No agency pitch, phone number or
+  web address is narrated, except in the how-we-help pillar (at most one post in ten). The caption
+  carries a single soft call to action after the tip. Every video should be worth saving even if the
+  viewer never hires us.
 - Honest: never promise rankings, lower ad costs or sales figures. The site itself says a
   performance score "does not guarantee" results. Keep that discipline.
 - Bilingual-friendly: English narration; captions may add a short Spanish line.
@@ -71,7 +75,7 @@ Fonts on the site: Playfair Display (headlines) and DM Sans (body).
 - Motion: purposeful, not flashy.
 - Video style locked by the owner: **Paper Diorama** preset rendered in the website palette (ink black, off-white paper, one violet accent), narrator voice **Fraser**.
 
-## Calls to action (use exactly one per video)
+## Calls to action (one per caption, never in the narration outside how-we-help)
 
 - "Call (786) 550-2777"
 - "Visit lionroar360.com and request a call back"
@@ -84,9 +88,10 @@ day, a 20-minute conversation about goals, and a clear proposal before any work 
 
 | Pillar | Goal | Share of calendar |
 |---|---|---|
-| Why marketing matters | Teach the importance and growth of marketing for any business | 20% |
-| High-quality websites | Teach why the website is where the decision happens | 20% |
-| Be found (SEO, Google, Meta ads) | Teach how customers discover a business | 25% |
-| Follow-up and CRM | Teach that attention is only the beginning | 15% |
+| Growth tips | Practical, non-promotional advice on growing any small business | 25% |
+| Why marketing matters | Teach the importance and growth of marketing for any business | 15% |
+| High-quality websites | Teach why the website is where the decision happens | 15% |
+| Be found (SEO, Google, Meta ads) | Teach how customers discover a business | 20% |
+| Follow-up and CRM | Teach that attention is only the beginning | 10% |
 | Social and content | Teach consistency and quality | 10% |
-| How Lion Roar 360 helps | Show the method and the services | 10% |
+| How Lion Roar 360 helps | Show the method and the services (the only pillar allowed to pitch) | 5% |
