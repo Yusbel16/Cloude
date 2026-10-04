@@ -102,6 +102,13 @@
         "kind": "prop",
         "job_id": "0e85c4bc-65e4-4555-987c-7cf4dd81c7ee",
         "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261001_130340_0e85c4bc-65e4-4555-987c-7cf4dd81c7ee.png"
+      },
+      {
+        "name": "prop_coins",
+        "kind": "prop",
+        "job_id": "73d9c5ab-a595-4b75-8d69-379a389aa7bf",
+        "url": "https://d8j0ntlcm91z4.cloudfront.net/user_38hq4kqrYR8smGnf2SuUKXKWjwb/hf_20261004_014422_73d9c5ab-a595-4b75-8d69-379a389aa7bf.png",
+        "note": "paper coin column, through-line for growth-tips value stories"
       }
     ],
     "narration": {
@@ -111,7 +118,8 @@
         7.8,
         9.5
       ]
-    }
+    },
+    "captions_scripts": "${HF_WORKFLOWS}/video-montage/scripts (audio_to_captions.py, burn_caps_clean.sh, fetch_fonts.sh); --model small --minimum-similarity 0.6 when a line contains spoken numbers"
   },
   "schedule": {
     "cadence": "every 2 days",

@@ -119,6 +119,24 @@ failed and why.
   requests with `declined_preset_id` from the error.
 - Re-record the voice BEFORE generating video. Clips cost far more than takes.
 
+## Lessons learned on the second run (2026-10-04, tip-01)
+
+- The caption scripts now live in `${HF_WORKFLOWS}/video-montage/scripts/` (`audio_to_captions.py`,
+  `burn_caps_clean.sh`, `fetch_fonts.sh`); the old `subtitles/` folder no longer exists in the sandbox.
+- When a spoken line contains numbers ("two hundred dollars"), Whisper writes digits ("$200") and the
+  caption aligner's similarity gate fails at the default 0.75 even though the take is word-perfect.
+  Pass `--minimum-similarity 0.6` for that run; the caption text still comes from the authored script.
+- The sandbox is recycled whenever the Higgsfield connector reconnects, which kills background jobs
+  mid-chain. Checkpoint after assembly: tar `final_clean.mp4`, its sidecar, poster, `work/voices` and the
+  manifest, PUT it to a `media_upload` slot (`.tar`), `media_confirm` it with type `file`, and resume
+  the caption and burn stage from that tar if the chain dies. Keep each stage under ~3 minutes.
+- Never run `ffmpeg` inside a `while read` loop without `-nostdin`: it eats the next line of the list
+  (the second voice URL lost its first character). Use `for u in $(cat voices.txt)` instead.
+- A presigned upload URL can start returning 400 after a few hours; request a fresh `media_upload`
+  slot and PUT again rather than retrying the old one.
+- Densify to 23 words with longer words when a take is RUSHED; the engine's pace is bimodal, so one
+  re-roll of the same text often lands in the window (block 1 went 7.09 s to 8.13 s).
+
 ## Rules that never change
 
 - One Reel per run. Never run the loop twice in one session.
